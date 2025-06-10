@@ -27,7 +27,7 @@ The application will be written in Python and use the Click CLI library.
    - **Output Format:** "It is currently `<temperature>`ºF, and `<weather condition>` in `<city>`, `<state>`."
 
 ## General Requirements
-- **Python Version:** Use Python 3.
+- **Python Version:** Use Python 3.7 or higher.
 - **CLI Framework:** Use Click.
 - **Dependencies:** All necessary Python dependencies should be listed in a `requirements.txt` file.
 - **Error Handling:** Implement basic error handling (e.g., for invalid zip codes, API request failures, inability to determine current location).

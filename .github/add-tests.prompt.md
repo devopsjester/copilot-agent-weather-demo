@@ -59,7 +59,8 @@ Implement a comprehensive suite of automated tests for the "weather" CLI applica
 
 ## Dependencies
 - Add `pytest` and `pytest-mock` to the `requirements.txt` file.
-- Ensure the command `python3 -m pip install -r requirements.txt` successfully installs these dependencies.
+- Add `pytest` and `pytest-mock` to a `dev-requirements.txt` file for test-only dependencies.
+- Ensure the command `python3 -m pip install -r dev-requirements.txt` successfully installs these dependencies.
 
 ## Running Tests
 - Provide clear instructions in the `README.md` on how to run the tests (e.g., by simply running `pytest` from the project root).
